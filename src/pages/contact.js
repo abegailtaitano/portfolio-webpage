@@ -1,17 +1,14 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 
 const Contactpage = () => {
   return (
-    <main>
-    <title>...</title>
-    <h1>Welcome</h1>
-    </main>
+   <Layout></Layout>
 
     
-  );
-};
+  )
+}
 
 
 export default Contactpage;
