@@ -4,6 +4,7 @@ import { container, heading, navLinks, navLinkItem, navLinkText } from './layout
 
 console.log('container: ', container)
 
+
 const Layout = ({ pageTitle, pageHeading, children }) => {
   return (
     <main className={container}>
